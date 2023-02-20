@@ -9,14 +9,14 @@
 <p></p>
 
 </p>
-<img width="1440" alt="mainPage" src="./readme-assent/1e.PNG">
+<img width="440" alt="mainPage" src="./readme-assent/1e.PNG">
 <p>
 </p>
-<img width="1440" alt="mainPage" src="./readme-assent/2e.PNG">
+<img width="440" alt="mainPage" src="./readme-assent/2e.PNG">
 <p>
 </p>
-<img width="1440" alt="mainPage" src="./readme-assent/3e.PNG">
+<img width="440" alt="mainPage" src="./readme-assent/3e.PNG">
 <p
 </p>
-<img width="1440" alt="mainPage" src="./readme-assent/4e.PNG">
+<img width="440" alt="mainPage" src="./readme-assent/4e.PNG">
 <p
