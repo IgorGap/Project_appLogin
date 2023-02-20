@@ -9,8 +9,8 @@
 <p></p>
 
 </p>
-<img width="440" alt="mainPage" src="./readme-assent/10e.PNG">
+<img width="1440" alt="mainPage" src="./readme-assent/10e.PNG">
 <p>
 </p>
-<img width="440" alt="mainPage" src="./readme-assent/20e.PNG">
+<img width="1440" alt="mainPage" src="./readme-assent/20e.PNG">
 <p>
