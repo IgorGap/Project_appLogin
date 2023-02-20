@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>verification</title>
+  <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <section class="modal">
+    <div class="header_modal" >
+      <button onclick="document.location ='./signIn.html'" class="btn_header">
+        <img class="vrctor_btn" src="./img/Vector1.png">
+        <img class="vrctor_btn1" src="./img/Vector2.png">
+      </button>
+      <h2 class="modal_title">Verification</h2>
+    </div>
+      <img class='modal_img1 verific_img' src="./img/Wave.png" alt="bla">
+    <h1 class="title_ver" >Enter OTP</h1>
+    <p class="modal_subtitle1 verific_modal">Enter the OTP code we just sent</p>
+    <p class="modal_subtitle1 verific_modal1"> you on your registered Email/Phone number</p>
+    </div>
+    <div class="modal_input_container1">
+      <input class="inp_ver1" maxlength="1" type="text">
+      <input class="inp_ver1" maxlength="1" type="text">
+      <input class="inp_ver1" maxlength="1" type="text">
+      <input class="inp_ver1" maxlength="1" type="text">
+      <input class="inp_ver1" maxlength="1" type="text">
+    </div>
+    <div class="timer">02:00</div>
+    <p class="modal_subtitle">We send verification code to your 
+      email toprin******@outlook.com. You can
+      check your inbox.</p>
+
+    <div class="footer">
+      <a href="#" onclick="activeHref()" class="modal_href1 none">I didn't receive the code? Send again</a>
+      <p class="modal_href1 modal_p">I didn't receive the code? Send again</p>
+      <button  onclick="showValid()" class="modal_btn">Verify</button>
+      <div class="modal_footer">
+        <div id="newStr"></div>
+      </div>
+    </div>
+    
+  </section>
+  <script src="./app.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sign up</title>
+  <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <section class="modal">
+    <h2 class="modal_title">Sign up</h2>
+    <p class="modal_subtitle">Create account to contiune!</p>
+    <label>Email Address</label>
+    <div class="modal_input_container">
+      <input type="text" placeholder="Enter your email">
+    </div>
+
+    <label>Mobile Number</label>
+    <div class="modal_input_container">
+      <input type="text" placeholder="+1 | Enter your mobile number">
+    </div>
+
+    <label>Password</label>
+    <div class="modal_input_container">
+    <img src="./img/EyesOpen1.webp" onclick="showInputType(this)" class="icon" ></img>
+      <input type="password" maxlength="4" placeholder="Enter your password">
+    </div>
+
+    <label>Confirm Password</label>
+    <div class="modal_input_container">
+    <img src="./img/EyesOpen1.webp" onclick="showInputType(this)" class="icon" ></img>
+      <input type="password" maxlength="4" placeholder="Enter your password">
+    </div>
+
+    <div class="check">
+      <input class="inpcheck" type="checkbox">
+      <span>I agree to terms and conditions</span>
+    </div>
+
+    <div class="footer">
+      <button onclick="showInfo()" class="modal_btn">Sign Up</button>
+      <div class="modal_footer">
+      </div>
+    </div>
+    
+  </section>
+
+  <script src="./app.js"></script>
+</body>
+</html>
+

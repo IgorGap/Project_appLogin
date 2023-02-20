@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sign in</title>
+  <link href="./style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <section class="modal">
+    <form id = "modal_form">
+    <img class='modal_img' src="./img/Logo.svg" alt="bla">
+    <h2 class="modal_title">Sign in</h2>
+    <p class="modal_subtitle">Sign in to contiune!</p>
+    <label>Email Address</label>
+    <div class="modal_input_container">
+      <input  type="email" pattern='[a-z0-9]+@[a-z]+\.[a-z]{2,3}' placeholder="Enter your email">
+    </div>
+    <label class="lable">Password</label>
+    <div class="modal_input_container">
+      <img src="./img/EyesOpen1.webp" onclick="showInputType(this)" class="icon" ></img>
+      <input type="password" maxlength="4"  placeholder="Enter your password">
+    </div>
+    <a href="#" class="modal_href">Forgot Password?</a>
+    <div class="check">
+      <input class="myCheck" type="checkbox">
+      <span class="rebember">Rebember me</span>
+    </div>
+
+    <div class="footer">
+      <button onclick="changePage()" class="modal_btn">Sign In</button>
+      <div class="modal_footer">
+      <span class="modal_footer_text">Don't have an account?</span>
+      <a href="./signup.html" class="modal_footer_href">Sign Up</a>
+      </div>
+    </div>
+  </form>
+  </section>
+  
+
+  <script src="./app.js"></script>
+</body>
+</html>
+
+
